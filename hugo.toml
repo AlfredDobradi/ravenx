@@ -1,4 +1,21 @@
 baseURL = 'https://ravenx.space/'
 languageCode = 'en-us'
-title = 'Raven X - Bad Omens. - Trash Tier Tryhards'
+title = 'Raven X'
 theme = 'neominimal'
+
+[menu]
+[[menu.main]]
+    identifier = "raven-zkill"
+    url = "https://zkillboard.com/character/2115710057/"
+    name = "Raven X Aihaken"
+    weight = 100
+[[menu.main]]
+    identifier = "badomens-zkill"
+    url = "https://zkillboard.com/corporation/98793702/"
+    name = "Bad Omens."
+    weight = 200
+[[menu.main]]
+    identifier = "ttt-zkill"
+    url = "https://zkillboard.com/kill/124985439/"
+    name = "Trash Tier Tryhards"
+    weight = 300
