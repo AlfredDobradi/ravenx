@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ravenx-web
+spec:
+  selector:
+    matchLabels:
+      app: ravenx-web
+  template:
+    metadata:
+      labels:
+        app: ravenx-web
+    spec:
+      containers:
+      - name: ravenx-nginx
+        image: ghcr.io/alfreddobradi/ravenx:v1.0.0
+        resources:
+          limits:
+            memory: "128Mi"
+            cpu: "500m"
+        ports:
+        - containerPort: 80
