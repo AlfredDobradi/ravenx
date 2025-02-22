@@ -1,0 +1,4 @@
+baseURL = 'https://ravenx.space/'
+languageCode = 'en-us'
+title = 'Raven X'
+theme = 'neominimal'
