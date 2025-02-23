@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: ravenx-nginx
-        image: ghcr.io/alfreddobradi/ravenx:v1.2.0
+        image: ghcr.io/alfreddobradi/ravenx:v1.2.1
         resources:
           limits:
             memory: "128Mi"
